@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Будешь моей Валентинкой?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Будешь моей Валентинкой?</h1>
+
+      <div class="jp-text"></div>
+      <div class="buttons">
+        <button class="yes-button" onclick="handleYesClick()">Да</button>
+        <button class="no-button" onclick="handleNoClick()">Нет</button>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://media.giphy.com/media/VbKfL3rICEObIb9VxR/giphy.gif"
+          alt="Cute Cat Sticker"
+        />
+      </div>
+    </div>
+
+    <audio id="background-music" loop>
+      <source src="audio/background_music.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+    <script src="confetti.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </body>
+</html>
